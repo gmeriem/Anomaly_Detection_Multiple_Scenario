@@ -1,0 +1,47 @@
+Results: 
+
+Pour k=: 1016 on a: 
+
+time: 354.07085371017456 seconds 
+
+size of tested data: 143031
+size of trained data: 143065
+
+True Positive 78795
+False Positive 716
+True Negative 63520
+False Negative 716
+Detection Rate: 99.09949566726617 %
+False Alarm Rate: 1.1146397658633789 % 
+
+
+
+Accuracy 95.153 %
+
+
+Confusion Matrix: 
+
+ [[57304  6216]
+ [  716 78795]]
+
+
+Classification Scores: 
+
+               precision    recall  f1-score   support
+
+           0       0.99      0.90      0.94     63520
+           1       0.93      0.99      0.96     79511
+
+    accuracy                           0.95    143031
+   macro avg       0.96      0.95      0.95    143031
+weighted avg       0.95      0.95      0.95    143031
+
+
+
+Hamming Loss 0.048465018073005156
+
+
+Matthews corrcoef 0.9037743883946638
+
+
+Zero-One Loss 0.048465018073005184

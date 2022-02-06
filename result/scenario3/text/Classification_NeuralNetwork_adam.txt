@@ -1,0 +1,12 @@
+adam results: 
+
+accuracy score:74.1637647642592%
+
+detectionRate score:99.99063816508036%
+
+far score:59.778128652572434%
+
+time: 2.374845504760742 seconds 
+
+size of tested data: 112857
+size of trained data: 112854

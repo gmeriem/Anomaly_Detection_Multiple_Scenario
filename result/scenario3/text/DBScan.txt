@@ -1,0 +1,45 @@
+Results: 
+
+time: 385.32831478118896 seconds 
+
+size of tested data: 112849
+size of trained data: 112862
+
+True Positive:63923
+False Positive: 0
+True Negative: 48926
+False Negative: 0
+Detection Rate: 100.0%
+False Alarm Rate: 0.0%
+
+
+
+Accuracy 56.925 %
+
+
+Confusion Matrix: 
+
+ [[  316 48610]
+ [    0 63923]]
+
+
+Classification Scores: 
+
+               precision    recall  f1-score   support
+
+           0       1.00      0.01      0.01     48926
+           1       0.57      1.00      0.72     63923
+
+    accuracy                           0.57    112849
+   macro avg       0.78      0.50      0.37    112849
+weighted avg       0.76      0.57      0.42    112849
+
+
+
+Hamming Loss 0.4307525986052158
+
+
+Matthews corrcoef 0.06057066082599054
+
+
+Zero-One Loss 0.43075259860521586

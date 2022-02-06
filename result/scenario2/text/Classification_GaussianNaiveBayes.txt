@@ -1,0 +1,12 @@
+Results: 
+
+accuracy score:64.16504155395724%
+
+detectionRate score:98.97844648194625%
+
+far score:79.11753637732062%
+
+time: 0.03613090515136719 seconds 
+
+size of tested data: 143067
+size of trained data: 143029
